@@ -106,7 +106,7 @@ class SurveillanceCard extends LitElement {
     this.recordingDuration = config.recording_duration || 10.0;
     this.showCaptureButtons = config.show_capture_buttons !== false;
     this.liveStream = config.camera_view === "live";
-    this.thumbPosition = config.thumb_position || "left";
+    this.thumbPosition = config.thumb_position || "top";
 
     // There must be better way to tell if HA front end running from app or browser
     // Confirmed working on iOS, should be verified on Android app
@@ -226,7 +226,7 @@ class SurveillanceCard extends LitElement {
   static get styles() {
     return css`
       .container {
-        height: 100%;
+        /*height: 100%;*/
         width: 100%;
         display: flex;
         align-items: stretch;
@@ -284,7 +284,7 @@ class SurveillanceCard extends LitElement {
       }
 
       .thumb.motion > img {
-        border-color: var(--accent-color);
+        border-color: #F44336;
       }
 
       img {
@@ -292,8 +292,8 @@ class SurveillanceCard extends LitElement {
       }
 
       .mainImage {
-        flex: 3;
-        height: 100%;
+        /*flex: 3;*/
+        /*height: 100%;*/
         position: relative;
         display: flex;
         align-items: center;
