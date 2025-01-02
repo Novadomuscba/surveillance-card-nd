@@ -1,6 +1,6 @@
 # Surveillance Card ND
 
-Surveillance Card ND es un componente personalizado para lovelace para ser usado como un panel de visualización de cámaras de seguridad. Muestra todas las cámaras en miniatura arriba, y una vista principal que meustra la cámara seleccionada o la última que haya detectado movimiento.
+Surveillance Card ND es un componente personalizado para lovelace para ser usado como un panel de visualización de cámaras de seguridad. Muestra todas las cámaras en miniatura arriba, y una vista principal que meustra la cámara seleccionada o la última que haya detectado movimiento. Está basado en [surveillance-card](https://github.com/custom-cards/surveillance-card) con la posibilidad de correr sin conexión a internet (dependencias locales) y algunas personalizaciones de estilo.
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/custom-cards/surveillance-card?color=green&display_name=tag&style=for-the-badge)
 ![Apache 2.0](https://img.shields.io/github/license/custom-cards/surveillance-card?color=blue&style=for-the-badge)
