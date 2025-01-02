@@ -2,7 +2,7 @@ import {
   css,
   html,
   LitElement,
-} from "https://unpkg.com/lit-element@2.3.1/lit-element.js?module";
+} from "./lit-element@2.3.1/lit-element.js?module?v=7";
 
 class SurveillanceCard extends LitElement {
   render() {
@@ -414,4 +414,4 @@ class SurveillanceCard extends LitElement {
     return wrapper;
   }
 }
-customElements.define("surveillance-card", SurveillanceCard);
+customElements.define("surveillance-card-nd", SurveillanceCard);
